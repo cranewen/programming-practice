@@ -1,0 +1,23 @@
+1. Changed public to private in ra.php
+2. Added raNumber varible into ra.php
+3. Added deleteRa() function.
+4. In addingproducts.php  insert query has been changed to 
+	*** mysqli_query($connection->con,$ra->insertRa()); ***
+5. Added searchRa() function in ra.php, related to search function in report.php
+6. In report, search function related codes had been changed to OOP style, listed below:
+	$ra = new Ralog();
+	$ra->setRaNumber($_GET['search']);
+	$ra->setCustomerNumber($_GET['search']);
+	$ra->setCustomer($_GET['search']);
+	$ra->setThirdParty($_GET['search']);
+	$ra->setWithOrderNumber($_GET['search']);
+	$ra->setFromInvoiceNumber($_GET['search']);
+	
+7.	In addingproducts.php:
+	//$connection = new Connection("localhost","bastian","bastian","ralog");
+	//mysqli_query($connection->con, $ra->insertRa());
+	
+8. Added updateRa() in ra.php. edited updateQuery in finishediting.php
+
+9. Added selectAll() in ra.php.  Modified selectQuery in report.php
+

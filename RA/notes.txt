@@ -1,0 +1,30 @@
+"New" button doesn't have to submit information. It can redirect to createRA.php, then once submit from createRA.php, it creates a new RA with an auto increased number(Index).
+"New" button creates a new session and a new row in database, so once the database generates the index automatically, the number will be the session's name($_SESSION['name']). This process is in order to insert other data to the RA that has been created, so it won't create a new row in database.
+
+addingproducts.php get the submission from createRA.php, inserting(create) a row in mysql as a new RA. Then addingproducts.php allows you add products to the RA you just created.
+
+resubmission issue.
+
+****** very important ******
+echo '<th><a href="singlerarecord.php?ra=' .$row['ra_number'].'">', $row['ra_number'],'</a></th>'; ------> In this statement, ra=xxx, here the ra is a GET parameter, so the next page will be able to retreive data from $_GET['ra'];
+
+Thoughts:
+This may not be an effcient way to list all the products, than links to each details, but it works.(Probably good for small data projects.)
+****************************
+
+
+modify.php ------> finishediting.php
+createRA.php ------> addingproducts.php
+addingproducts.php ------> completeAddingNewRa.php/addingproducts.php(needs to add more than one product)
+report.php ------> singleRaRecord.php(using GET)
+report.php ------> modify.php
+
+debug_print_backtrace();  Need to learn how to debug.
+
+ALTER TABLE  `products` ADD UNIQUE (
+`style_number`
+);  // adding unique
+
+ALTER TABLE `product` DROP INDEX style_number;  // removing unique
+
+ALTER TABLE ra_logs AUTO_INCREMENT = 1000

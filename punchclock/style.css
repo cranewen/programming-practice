@@ -1,0 +1,372 @@
+#punchin_button {
+	position: fixed;
+	top: 200px;
+	right: 500px;
+	width:300px;
+	background: #3e9cbf; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+/*	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999; */
+	/*give the corners a small curve*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#punchout_button {
+	position: fixed;
+	top: 300px;
+	right: 500px;
+	width:300px;
+	background: #3e9cbf; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+/*	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999; */
+	/*give the corners a small curve*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#employee_name {
+	position: fixed;
+	top: 250px;
+	right: 900px;
+	width: 250px;
+	height: 50px;
+	text-align: -webkit-center;
+	/*background: #3e9cbf; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	font: 700;
+	font-size: 1.5em;
+	font-family:Oswald, sans-serif;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+#employee_name:option{
+	text-align: center;
+}
+
+#manage_record{
+	position: fixed;
+	top: 600px;
+	right: 500px;
+	width:300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+/*	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999; */
+	/*give the corners a small curve*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#backToMainPage{
+	position:absolute;
+	top: 400px;
+	right: 300px;
+	width: 300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#deletePreviousData{
+	position:absolute;
+	top: 500px;
+	right: 300px;
+	width: 300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#cal_crane{
+	position:absolute;
+	top: 100px;
+	right: 300px;
+	width: 300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.0em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#cal_sarah{
+	position:absolute;
+	top: 200px;
+	right: 300px;
+	width: 300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.0em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#cal_amanda{
+	position:absolute;
+	top: 300px;
+	right: 300px;
+	width: 300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.0em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#start_time{
+	position:absolute;
+	top: 100px;
+	right: 100px;
+	width: 160px;
+	padding: 8px 14px 10px;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+}
+
+#end_time{
+	position: absolute;
+	top: 160px;
+	right: 100px;
+	width: 160px;
+	padding: 8px 14px 10px;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+}
+
+#delete_by_punch_in{
+	position: absolute;
+	top: 200px;
+	right: 600px;
+	width: 200px;
+	padding: 8px 14px 10px;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+
+}
+
+#delete_by_punch_out{
+	position: absolute;
+	top: 200px;
+	right: 350px;
+	width: 200px;
+	padding: 8px 14px 10px;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+
+}
+
+#notesDate{
+	position: absolute;
+	top: 200px;
+	right: 100px;
+	width: 200px;
+	padding: 8px 14px 10px;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #3e9cbf;
+}
+
+#employee{
+	position: absolute;
+	top: 200px;
+	right: 850px;
+	width: 200px;
+	padding: 8px 14px 10px;
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+
+}
+
+#notes{
+	position: fixed;
+	top: 500px;
+	right: 100px;
+	width:300px;
+	background: #7e15c4; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+/*	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999; */
+	/*give the corners a small curve*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+#listNotes{
+	position: absolute;
+	top: 500px;
+	right: 300px;
+	width: 300px;
+	background: #7e15c4; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+/*	-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999; */
+	/*give the corners a small curve*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+#deleteNotes {
+	position:absolute;
+	top: 600px;
+	right: 300px;
+	width: 300px;
+	background: #1fc374; /*the colour of the button*/
+	padding: 8px 14px 10px; /*apply some padding inside the button*/
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+	/*style the text*/
+	font-size:1.5em;
+	font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+	letter-spacing:.1em;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+	color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+#notesTextArea{
+	position: absolute;
+	top: 250px;
+	right: 100px;
+	width: 300px;
+	height: 200px;
+	border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+	color:#371e91;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+textarea::-webkit-input-placeholder { font-size: 16pt; color: #999898; }
+textarea::-moz-placeholder { font-size: 16pt; color: #999898; }
+
+.containter{
+	max-width: 660px;
+}

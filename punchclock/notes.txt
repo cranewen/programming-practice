@@ -1,0 +1,6 @@
+database fields: Name, Time, Description(XXX has punched in/out at ...), PunchStatus(punch in/out).
+
+Name: Employee's name.
+Time field is used for calculate the time duration.
+Description is used for display on a web page.
+PunchStatus is used for identify whether it's a punchin or punchout.
